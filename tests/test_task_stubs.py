@@ -82,3 +82,8 @@ def test_rca_stub():
     r = rca.generate_rca("issue happened during call")
     assert r.startswith("RCA draft")
     assert "issue" in r
+
+    # keyword detection
+    r2 = rca.generate_rca("An error occurred during processing")
+    assert "Keywords:" in r2
+    assert "error" in r2.lower()
