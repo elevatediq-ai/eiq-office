@@ -1,0 +1,44 @@
+{"timestamp":"2026-02-18T14:41:10.000Z","issue":3562,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Phase Helper Required","milestone_id":46}
+{"timestamp":"2026-02-18T14:41:19.000Z","issue":3552,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Terraform Provide Phase","milestone_id":47}
+{"timestamp":"2026-02-18T14:41:20.000Z","issue":3552,"decision":"FORCED_REALIGN","old_milestone":4,"new_milestone":47,"coherence":0.5,"reason":"Coherence threshold breach"}
+{"timestamp":"2026-02-18T14:41:22.000Z","issue":3551,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Phase Terraform Infra","milestone_id":48}
+{"timestamp":"2026-02-18T14:41:22.000Z","issue":3551,"decision":"FORCED_REALIGN","old_milestone":20,"new_milestone":48,"coherence":0.5,"reason":"Coherence threshold breach"}
+{"timestamp":"2026-02-18T14:41:26.000Z","issue":3549,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Golang Upgrade Crypto","milestone_id":49}
+{"timestamp":"2026-02-18T14:41:29.000Z","issue":3548,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Target Responsible Evidence","milestone_id":50}
+{"timestamp":"2026-02-18T14:41:29.000Z","issue":3548,"decision":"FORCED_REALIGN","old_milestone":44,"new_milestone":50,"coherence":0.5,"reason":"Coherence threshold breach"}
+{"timestamp":"2026-02-18T14:41:35.000Z","issue":3541,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Drill Automated Drills","milestone_id":51}
+{"timestamp":"2026-02-18T14:41:37.000Z","issue":3540,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Region Modules Multi","milestone_id":52}
+{"timestamp":"2026-02-18T14:41:37.000Z","issue":3540,"decision":"FORCED_REALIGN","old_milestone":44,"new_milestone":52,"coherence":0.5,"reason":"Coherence threshold breach"}
+{"timestamp":"2026-02-18T14:41:41.000Z","issue":3538,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Architecture Failover Design","milestone_id":53}
+{"timestamp":"2026-02-18T14:41:44.000Z","issue":3536,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Task Game Chaos","milestone_id":54}
+{"timestamp":"2026-02-18T14:41:48.000Z","issue":3534,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Active Task Multi","milestone_id":55}
+{"timestamp":"2026-02-18T14:41:50.000Z","issue":3533,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Task Fips Cryptographic","milestone_id":56}
+{"timestamp":"2026-02-18T14:41:53.000Z","issue":3532,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Task Service Account","milestone_id":57}
+{"timestamp":"2026-02-18T14:41:53.000Z","issue":3532,"decision":"FORCED_REALIGN","old_milestone":5,"new_milestone":57,"coherence":0.5,"reason":"Coherence threshold breach"}
+{"timestamp":"2026-02-18T14:42:02.000Z","issue":3523,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Account Repo Credentials","milestone_id":58}
+{"timestamp":"2026-02-18T14:42:08.000Z","issue":3518,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Jaeger Security Otlp","milestone_id":59}
+{"timestamp":"2026-02-18T14:42:13.000Z","issue":3502,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Phase Wave Each","milestone_id":60}
+{"timestamp":"2026-02-18T14:42:35.000Z","issue":3416,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Infra Infrastructure Code","milestone_id":61}
+{"timestamp":"2026-02-18T14:42:35.000Z","issue":3416,"decision":"FORCED_REALIGN","old_milestone":5,"new_milestone":61,"coherence":0.5,"reason":"Coherence threshold breach"}
+{"timestamp":"2026-02-18T14:42:38.000Z","issue":3415,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Task Performance Optimization","milestone_id":62}
+{"timestamp":"2026-02-18T14:42:38.000Z","issue":3415,"decision":"FORCED_REALIGN","old_milestone":5,"new_milestone":62,"coherence":0.5,"reason":"Coherence threshold breach"}
+{"timestamp":"2026-02-18T14:43:06.000Z","issue":3513,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Phase Post Evidence","milestone_id":63}
+{"timestamp":"2026-02-18T14:43:06.000Z","issue":3513,"decision":"FORCED_REALIGN","old_milestone":45,"new_milestone":63,"coherence":0.5,"reason":"Coherence threshold breach"}
+{"timestamp":"2026-02-18T14:43:09.000Z","issue":3512,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Phase Post Deployment","milestone_id":64}
+{"timestamp":"2026-02-18T14:43:17.000Z","issue":3497,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Phase Final Kickoff","milestone_id":65}
+{"timestamp":"2026-02-18T14:43:26.000Z","issue":3477,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Deployment Phase Ready","milestone_id":66}
+{"timestamp":"2026-02-18T14:43:27.000Z","issue":3477,"decision":"FORCED_REALIGN","old_milestone":44,"new_milestone":66,"coherence":0.5,"reason":"Coherence threshold breach"}
+{"timestamp":"2026-02-18T14:43:35.000Z","issue":3466,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Phase Docs Gate","milestone_id":67}
+{"timestamp":"2026-02-18T14:43:35.000Z","issue":3466,"decision":"FORCED_REALIGN","old_milestone":5,"new_milestone":67,"coherence":0.5,"reason":"Coherence threshold breach"}
+{"timestamp":"2026-02-18T14:43:38.000Z","issue":3465,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Team Phase Handoff","milestone_id":68}
+{"timestamp":"2026-02-18T14:43:38.000Z","issue":3465,"decision":"FORCED_REALIGN","old_milestone":44,"new_milestone":68,"coherence":0.5,"reason":"Coherence threshold breach"}
+{"timestamp":"2026-02-18T14:43:56.000Z","issue":3444,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Cloud Deploy Functions","milestone_id":69}
+{"timestamp":"2026-02-18T14:43:56.000Z","issue":3444,"decision":"FORCED_REALIGN","old_milestone":33,"new_milestone":69,"coherence":0.5,"reason":"Coherence threshold breach"}
+{"timestamp":"2026-02-18T14:44:11.000Z","issue":3421,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Security Scan Commit","milestone_id":70}
+{"timestamp":"2026-02-18T14:44:11.000Z","issue":3421,"decision":"FORCED_REALIGN","old_milestone":5,"new_milestone":70,"coherence":0.5,"reason":"Coherence threshold breach"}
+{"timestamp":"2026-02-18T14:44:25.000Z","issue":3353,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Implement Terraform Modules","milestone_id":71}
+{"timestamp":"2026-02-18T14:44:25.000Z","issue":3353,"decision":"FORCED_REALIGN","old_milestone":4,"new_milestone":71,"coherence":0.5,"reason":"Coherence threshold breach"}
+{"timestamp":"2026-02-18T14:44:32.000Z","issue":3343,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Phase Identify Terraform","milestone_id":72}
+{"timestamp":"2026-02-18T14:44:32.000Z","issue":3343,"decision":"FORCED_REALIGN","old_milestone":4,"new_milestone":72,"coherence":0.5,"reason":"Coherence threshold breach"}
+{"timestamp":"2026-02-18T14:44:37.000Z","issue":3339,"decision":"CREATE_MILESTONE","milestone_title":"Ad-hoc: Gamma Project Spoke","milestone_id":73}
+{"timestamp":"2026-02-18T14:44:37.000Z","issue":3339,"decision":"FORCED_REALIGN","old_milestone":4,"new_milestone":73,"coherence":0.5,"reason":"Coherence threshold breach"}
