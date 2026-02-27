@@ -1,0 +1,37 @@
+name: CI — GSM example
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Authenticate to GCP using Workload Identity
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: projects/PROJECT_NUMBER/locations/global/workloadIdentityPools/POOL/providers/PROVIDER
+          service_account: sa-ci-gsm@PROJECT_ID.iam.gserviceaccount.com
+
+      - name: Install gcloud
+        run: |
+          curl -sSL https://sdk.cloud.google.com | bash > /dev/null
+          source $HOME/google-cloud-sdk/path.bash.inc
+
+      - name: Fetch secret from GSM
+        env:
+          SECRET_NAME: DATABASE_PASSWORD_PROD
+        run: |
+          gcloud secrets versions access latest --secret="$SECRET_NAME" --project="$GCP_PROJECT_ID" > /tmp/secret_value
+          echo "::set-output name=secret::$(cat /tmp/secret_value)"
+
+      - name: Run tests
+        env:
+          DATABASE_PASSWORD: ${{ steps.fetch_secret.outputs.secret }}
+        run: |
+          echo "(run your test commands here)"
