@@ -1,0 +1,65 @@
+# Root ignore for OfficeIQ workspace
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+venv/
+env/
+*.egg-info/
+*.egg
+build/
+dist/
+
+# IDE/editor
+.vscode/
+.idea/
+*.code-workspace
+
+# PMO tooling and caches
+.pmo/
+.pmo-cache/
+
+# Caches and pyc directories created by tests
+**/__pycache__/
+
+# build/packaging output
+*.tar.gz
+*.whl
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Temporary and workspace files
+*.swp
+*.swo
+
+# large generated trees we don't want in source control
+docs/
+elevatediq-temp/
+logs/
+
+# officeiq package caches
+officeiq/__pycache__/
+officeiq/ui/__pycache__/
+
+tests/__pycache__/
+
+# misc
+**/node_modules/
+**/dist/
+**/build/
+
+# keep .vscode settings tracked where useful
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Add any further patterns as needed based on workspace noise
