@@ -12,6 +12,7 @@ from officeiq import (
 
 def test_persist_transcript_stub():
     assert transcript_storage.persist_transcript("m1", "hello")
+    assert transcript_storage.get_transcript("m1") == "hello"
 
 
 def test_version_transcript_stub():
@@ -63,6 +64,18 @@ def test_bulk_import_stub():
         tf.write("one\ntwo\nthree\n")
         fname = tf.name
     assert bulk_import.import_entities_bulk(fname) == 3
+
+    # comma separated values counted appropriately
+    with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='.txt') as tf2:
+        tf2.write("a,b,c\n")
+        fname2 = tf2.name
+    assert bulk_import.import_entities_bulk(fname2) == 3
+
+    # JSON array support
+    with tempfile.NamedTemporaryFile(mode='w', delete=False, suffix='.json') as tf3:
+        tf3.write("[1,2,3,4]")
+        fname3 = tf3.name
+    assert bulk_import.import_entities_bulk(fname3) == 4
 
 
 def test_rca_stub():
