@@ -1,0 +1,16 @@
+# Caller workflow for org-wide compliance.
+# Drop this file into any repo at .github/workflows/compliance.yml
+# to inherit the org's compliance pipeline.
+
+name: Compliance
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  compliance:
+    uses: elevatediq-ai/.github/.github/workflows/org-compliance.yml@main
+    secrets: inherit
